@@ -83,14 +83,24 @@
 
     </div>
 
-    <div id="csv-data" class="data-container">
-        <!-- The CSV data will be loaded here -->
+    <!-- This part would contain a list of articles on the left pane (would be like 20 % of the page width), and the list in hyperclicks, 
+        clicking on each article list element, loads up a different .html file and copies in another div on the right side. The text for the list of 
+    articles in fetched from the first colomn of the csv file-->
 
+    <div class="row">
+        <div class="column">
+            <h2 class="s-content__subheader">Articles</h2>
+            <p>Here are some articles that you can read and learn from</p>
+        </div>
+
+        <div class="column">
+            <h2 class="s-content__subheader">Article Content</h2>
+            <p>Here is the content of the article that you have selected</p>
+        </div>
     </div>
+
+
     
-
-
-
     <!-- Footer -->
     <footer class="s-footer">
         <div class="row s-footer__content">
